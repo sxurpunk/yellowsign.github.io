@@ -1,0 +1,43 @@
+[
+    {
+        "Name": "Cthulhu",
+        "Place of Importance": "R'lyeh",
+        "First Appearance": "The Call of Cthulhu",
+        "Year of Appearance": "1928"
+    },
+
+    {
+        "Name": "Azathoth",
+        "PLace of Importance": "Everywhere",
+        "First Appearance": "The Dream-Quest of Unknown Kadath",
+        "Year of Appearance": "1943"
+    },
+
+    {
+        "Name": "Nyarlathotep",
+        "Place of Importance": "The World of Seven Suns",
+        "First Appearance": "Nyarlathotep",
+        "Year of Appearance": "1920"
+    },
+
+    {
+        "Name": "Yog-Sothoth",
+        "Place of Importance": "The Nameless Mist",
+        "First Appearance": "The Case of Charles Dexter Ward",
+        "Year of Appearance": "1941"
+    },
+
+    {
+        "Name": "Dagon",
+        "Place of Importance": "Innsmouth",
+        "First Appearance": "Dagon",
+        "Year of Appearance": "1913"
+    },
+
+    {
+        "Name": "Mother Hydra",
+        "Place of Importance": "Innsmouth",
+        "First Appearance": "The Shadow Over Innsmouth",
+        "Year of Appearance": "1931"
+    }
+]
