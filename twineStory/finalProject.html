@@ -60,8 +60,7 @@ tw-passage {
 .enchantment-link:hover, tw-link:hover, a:hover {
 	color: white; 
 	text-shadow: 0 0 10px white;
-}
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="♐︎♓︎❒︎⬧︎⧫︎ ♍︎□︎❍︎❍︎◆︎■︎♓︎♍︎♋︎⧫︎♓︎□︎■︎" tags="" position="300,400" size="100,100">♒︎♋︎⧫︎ ♎︎□︎ ⍓︎□︎◆︎ ♎︎♏︎⬧︎♓︎❒︎♏︎ □︎♐︎ ❍︎♏︎✍︎
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="♐︎♓︎❒︎⬧︎⧫︎ ♍︎□︎❍︎❍︎◆︎■︎♓︎♍︎♋︎⧫︎♓︎□︎■︎" tags="" position="2200,600" size="100,100">♒︎♋︎⧫︎ ♎︎□︎ ⍓︎□︎◆︎ ♎︎♏︎⬧︎♓︎❒︎♏︎ □︎♐︎ ❍︎♏︎✍︎
 
 (input: bind _response)
 
@@ -79,9 +78,27 @@ tw-passage {
 
 [[♐︎♓︎❒︎⬧︎⧫︎ ♍︎□︎❍︎❍︎◆︎■︎♓︎♍︎♋︎⧫︎♓︎□︎■︎]] 
 ]
-]</tw-passagedata><tw-passagedata pid="2" name=" first understanding" tags="" position="500,400" size="100,100">so you seek further communication
+]</tw-passagedata><tw-passagedata pid="2" name=" first understanding" tags="" position="2400,600" size="100,100">you seek further communication
 
-[[proceed -&gt; second understanding]] </tw-passagedata><tw-passagedata pid="3" name=" first demand" tags="" position="700,600" size="100,100">what do you desire of us</tw-passagedata><tw-passagedata pid="4" name=" second understanding" tags="" position="700,400" size="100,100">how did you find us
+[[i do -&gt; second understanding]]</tw-passagedata><tw-passagedata pid="3" name=" first demand" tags="" position="2400,800" size="100,100">what do you desire of us
+
+(input: bind _response)
+
+(link-replace: &quot;send&quot;)[
+
+(if: _response is &quot;ressurection&quot;)[
+
+[[make your deal -&gt; first compensation]] 
+
+]
+
+(if: _response is not &quot;ressurection&quot;)[
+
+mistruth wil get you nowhere
+
+[[demand once more -&gt; first demand]] 
+]
+]</tw-passagedata><tw-passagedata pid="4" name=" second understanding" tags="" position="2600,600" size="100,100">how did you find us
 
 (input: bind _response)
 
@@ -89,7 +106,7 @@ tw-passage {
 
 (if: _response is &quot;dreams&quot;)[
 
-[[proceed -&gt; first demand]] 
+[[proceed -&gt; first desire]] 
 
 ]
 
@@ -99,7 +116,213 @@ you tell not the truth
 
 [[confront -&gt; second understanding]] 
 ]
-]</tw-passagedata></tw-storydata>
+]</tw-passagedata><tw-passagedata pid="5" name=" first compensation" tags="" position="2200,800" size="100,100">what can you provide us
+
+(input: bind _response)
+
+(link-replace: &quot;send&quot;)[
+
+(if: _response is &quot;resurgance&quot;)[
+
+[[step closer -&gt; first loss]] 
+
+]
+
+(if: _response is not &quot;resurgance&quot;)[
+
+this is not what you want to give us
+
+[[offer more -&gt; first compensation]] 
+]
+]</tw-passagedata><tw-passagedata pid="6" name=" first loss" tags="" position="2200,1000" size="100,100">what will you give up for us
+
+(input: bind _response)
+
+(link-replace: &quot;send&quot;)[
+
+(if: _response is &quot;consciousness&quot;)[
+
+[[fall in -&gt; road one]] 
+
+]
+
+(if: _response is not &quot;consciousness&quot;)[
+
+lis⧫︎♏︎en ⧫︎□︎ you❒︎⬧︎s♏︎lf
+
+[[open your eyes -&gt; first loss]] 
+]
+]</tw-passagedata><tw-passagedata pid="7" name=" first desire" tags="" position="2600,800" size="100,100">we hunger
+we desire
+we provide
+we can assist you
+will you accept us
+
+(input: bind _response)
+
+(link-replace: &quot;send&quot;)[
+
+(if: _response is &quot;yes&quot;)[
+
+[[proceed -&gt; first demand]] 
+
+]
+
+(if: _response is not &quot;yes&quot;)[
+
+you will accept us
+
+[[evaluate your choices -&gt; first desire]] 
+]
+]</tw-passagedata><tw-passagedata pid="8" name=" road one" tags="" position="2400,1000" size="100,100">open your eyes
+
+open your eyes
+
+[[open your eyes -&gt; road two]] </tw-passagedata><tw-passagedata pid="9" name=" road two" tags="" position="2400,1200" size="100,100">you hear nothing
+
+you smell nothing
+
+you feel nothing
+
+two paths lie ahead
+
+[[one black -&gt; black path]] 
+
+[[one white -&gt; white path]] </tw-passagedata><tw-passagedata pid="10" name=" black path" tags="" position="2200,1200" size="100,100">an endless void beneath your feet
+
+not knowing where it leads
+
+you follow the splashes that echo with your footsteps
+
+feeling starts creeping into your nerves once more
+
+cold
+
+a cold chill
+
+[[a cold chill caresses your cheek -&gt; divergence]]</tw-passagedata><tw-passagedata pid="11" name=" white path" tags="" position="2600,1200" size="100,100"></tw-passagedata><tw-passagedata pid="12" name=" divergence" tags="" position="2200,1400" size="100,100">it grows colder
+
+and colder
+
+and colder
+
+you continue to drag your feet through the sludge
+
+each step heavier than the last
+
+doubt starts to form in your head
+
+[[should you go deeper -&gt; black path 2]]
+
+[[or turn around -&gt; lost path 1]]</tw-passagedata><tw-passagedata pid="13" name=" black path 2" tags="" position="2000,1400" size="100,100">you continue to kick your legs
+
+you dont know at what point you stopped walking
+
+and started swimming
+
+it isnt clear to you if youre moving or not
+
+you kick your legs
+
+you flail your arms
+
+you kick your legs
+
+[[you flail your arms -&gt; black path 3]]</tw-passagedata><tw-passagedata pid="14" name=" lost path 1" tags="" position="2400,1400" size="100,100"></tw-passagedata><tw-passagedata pid="15" name=" black path 3" tags="" position="2000,1600" size="100,100">a hiss creeps into your ear
+
+it is faint
+
+it is sharp
+
+it hurts
+
+a hiss creeps into your ear
+
+this time it is sweet
+
+this time it is melodic
+
+this time it is serene
+
+[[a painful hiss -&gt; black path 4]]
+
+[[a pleasant hiss -&gt; chase 1]]</tw-passagedata><tw-passagedata pid="16" name=" black path 4" tags="" position="1800,1600" size="100,100"> a red herring
+ 
+ a honey trap
+ 
+ nothing pleasant can be true
+ 
+ you follow the sting in your left ear
+ 
+ you fall deeper
+ 
+ and deeper
+ 
+ [[and deeper -&gt; black path 5]]</tw-passagedata><tw-passagedata pid="17" name=" black path 5" tags="" position="1800,1800" size="100,100">you awaken
+
+drenched
+
+heaving
+
+alive
+
+you feel a hard surface
+
+ridges rocks needles poke into your back
+
+your body feels out of your control
+
+[[you try to stand -&gt; black path 6]]
+
+[[but you dont know if you can -&gt; found 1]]</tw-passagedata><tw-passagedata pid="18" name=" black path 6" tags="" position="1600,1800" size="100,100">on your feet
+
+you start moving
+
+one in front of the other
+
+slowly
+
+you move
+
+you do not control your steps
+
+yet you move
+
+a green light shines ahead of you
+
+[[you move -&gt; black path 7]]
+
+</tw-passagedata><tw-passagedata pid="19" name=" found 1" tags="" position="2000,1800" size="100,100"></tw-passagedata><tw-passagedata pid="20" name=" chase 1" tags="" position="2200,1600" size="100,100"></tw-passagedata><tw-passagedata pid="21" name=" black path 7" tags="" position="1600,2000" size="100,100">you feel his call
+
+you feel his pull
+
+closer
+
+and closer
+
+you reach closer
+
+you stop moving
+
+[[but you continue to reach him -&gt; black path END]]</tw-passagedata><tw-passagedata pid="22" name=" black path END" tags="" position="1400,2000" size="100,100">the great dreamer
+
+the great sleeper
+
+you reach out
+
+you are recognized
+
+you are valued
+
+you let him in
+
+you pay your price
+
+your promise
+
+&lt;a onclick=&quot;window.close()&quot;&gt;fulfilled&lt;/a&gt;
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
