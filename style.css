@@ -3,6 +3,10 @@
     --text-color: yellow;
 }
 
+.class {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+
 body {
     align-items: center;
     justify-content: center;
