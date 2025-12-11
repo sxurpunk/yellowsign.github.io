@@ -22,6 +22,23 @@ let playerInsight = 0;
 
 document.getElementById("button").addEventListener('click', openWindow);
 
+document.addEventListener("DOMContentLoaded", () => {
+    fetch('lovecraft.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('nameDiv');
+            data.forEach(item => {
+                const div = document.createElement('div');
+                div.classList.add('creatureName');
+                div.innerHTML = `
+                 please work dude please
+                `;
+                container.appendChild(div);
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+});
+
 function openWindow1() {
     gsap.from(informationWindow1, {opacity: 0, duration: 0.5});
     informationWindow1.classList.toggle("openWindow");
