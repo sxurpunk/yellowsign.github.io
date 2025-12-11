@@ -24,6 +24,7 @@ document.getElementById("button").addEventListener('click', openWindow);
 
 document.addEventListener('DOMContentLoaded', function(){
     console.log("DOM loaded");
+    loadData();
 })
 
 async function loadData()
