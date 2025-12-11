@@ -1,71 +1,71 @@
 [
     {
         "id": "1",
-        "Name": "Cthulhu",
+        "Name": "Cthulhu"
     },
 
     {
         "id": "2",
-        "Name": "Azathoth",
+        "Name": "Azathoth"
     },
 
     {
         "id": "3",
-        "Name": "Yog-Sothoth",
+        "Name": "Yog-Sothoth"
     },
 
     {
         "id": "4",
-        "Name": "Mother Hydra",
+        "Name": "Mother Hydra"
     },
 
     {
         "id": "5",
-        "Name": "Dagon",
+        "Name": "Dagon"
     },
 
     {
         "id": "6",
-        "Name": "The Deep Ones",
+        "Name": "The Deep Ones"
     },
 
     {
         "id": "7",
-        "Name": "Idh-Yaa",
+        "Name": "Idh-Yaa"
     },
 
     {
         "id": "8",
-        "Name": "Shoggoth",
+        "Name": "Shoggoth"
     },
 
     {
         "id": "9",
-        "Name": "The Black Goat",
+        "Name": "The Black Goat"
     },
 
     {
         "id": "10",
-        "Name": "The Race of Yith",
+        "Name": "The Race of Yith"
     },
 
     {
         "id": "11",
-        "Name": "Yig",
+        "Name": "Yig"
     },
 
     {
         "id": "12",
-        "Name": "Yib-Tsll",
+        "Name": "Yib-Tsll"
     },
 
     {
         "id": "13",
-        "Name": "Nyarlethotep",
+        "Name": "Nyarlethotep"
     },
 
     {
         "id": "14",
-        "Name": "Hastur",
+        "Name": "Hastur"
     }
 ]

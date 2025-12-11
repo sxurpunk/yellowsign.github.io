@@ -22,16 +22,14 @@ let playerInsight = 0;
 
 document.getElementById("button").addEventListener('click', openWindow);
 
-document.addEventListener('DOMContentLoaded', function(){
-    console.log("DOM loaded");
-    loadData();
-})
+const lovecraftNames = loadData();
+console.log(lovecraftNames);
 
 async function loadData()
 {
-    const response = await fetch ("lovecraft.json")
+    const response = await fetch ("lovecraft.json");
     const data = await response.json();
-    console.log("data loaded", data);
+    return data;
 }
 
 function openWindow1() {
