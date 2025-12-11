@@ -22,6 +22,17 @@ let playerInsight = 0;
 
 document.getElementById("button").addEventListener('click', openWindow);
 
+document.addEventListener('DOMContentLoaded', function(){
+    console.log("DOM loaded");
+})
+
+async function loadData()
+{
+    const response = await fetch ("lovecraft.json")
+    const data = await response.json();
+    console.log("data loaded", data);
+}
+
 function openWindow1() {
     gsap.from(informationWindow1, {opacity: 0, duration: 0.5});
     informationWindow1.classList.toggle("openWindow");
