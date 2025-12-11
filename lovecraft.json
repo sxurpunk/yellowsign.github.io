@@ -1,43 +1,71 @@
 [
     {
+        "id": "1",
         "Name": "Cthulhu",
-        "Place of Importance": "R'lyeh",
-        "First Appearance": "The Call of Cthulhu",
-        "Year of Appearance": "1928"
     },
 
     {
+        "id": "2",
         "Name": "Azathoth",
-        "PLace of Importance": "Everywhere",
-        "First Appearance": "The Dream-Quest of Unknown Kadath",
-        "Year of Appearance": "1943"
     },
 
     {
-        "Name": "Nyarlathotep",
-        "Place of Importance": "The World of Seven Suns",
-        "First Appearance": "Nyarlathotep",
-        "Year of Appearance": "1920"
-    },
-
-    {
+        "id": "3",
         "Name": "Yog-Sothoth",
-        "Place of Importance": "The Nameless Mist",
-        "First Appearance": "The Case of Charles Dexter Ward",
-        "Year of Appearance": "1941"
     },
 
     {
-        "Name": "Dagon",
-        "Place of Importance": "Innsmouth",
-        "First Appearance": "Dagon",
-        "Year of Appearance": "1913"
-    },
-
-    {
+        "id": "4",
         "Name": "Mother Hydra",
-        "Place of Importance": "Innsmouth",
-        "First Appearance": "The Shadow Over Innsmouth",
-        "Year of Appearance": "1931"
+    },
+
+    {
+        "id": "5",
+        "Name": "Dagon",
+    },
+
+    {
+        "id": "6",
+        "Name": "The Deep Ones",
+    },
+
+    {
+        "id": "7",
+        "Name": "Idh-Yaa",
+    },
+
+    {
+        "id": "8",
+        "Name": "Shoggoth",
+    },
+
+    {
+        "id": "9",
+        "Name": "The Black Goat",
+    },
+
+    {
+        "id": "10",
+        "Name": "The Race of Yith",
+    },
+
+    {
+        "id": "11",
+        "Name": "Yig",
+    },
+
+    {
+        "id": "12",
+        "Name": "Yib-Tsll",
+    },
+
+    {
+        "id": "13",
+        "Name": "Nyarlethotep",
+    },
+
+    {
+        "id": "14",
+        "Name": "Hastur",
     }
 ]
