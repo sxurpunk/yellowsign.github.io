@@ -117,5 +117,5 @@ function addInsight()
 }
 
 function teleportPlayer() {
-    window.location.href = "twineStory/finalProject.html"
+    window.location.href = "twineStory/promise.html"
 }
